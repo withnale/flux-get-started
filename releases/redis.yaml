@@ -11,7 +11,7 @@ metadata:
     fluxcd.io/locked_msg: "Halt updates for now"
     fluxcd.io/locked_user: "Stefan Prodan <stefan@weave.works>"
 spec:
-  helmVersion: v3
+  helmVersion: v2
   releaseName: redis
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
